@@ -16,13 +16,14 @@ Desenvolvido como projeto acadêmico na disciplina de Álgebra Linear.
 ---
 
 ## 🗂️ Estrutura do repositório
+```
 Sudoku/
-├─ Controller/      # Classes que lidam com interação e lógica de controle
-├─ Model/           # Representação de tabuleiro, validações e estado do jogo
-├─ View/            # Interface gráfica (Swing, JavaFX ou console)
-├─ README.md        # Este arquivo
-└─ pom.xml / build/ # Scripts de build (se aplicáveis)
-
+    ├─ Controller/      # Classes que lidam com interação e lógica de controle
+    ├─ Model/           # Representação de tabuleiro, validações e estado do jogo
+    ├─ View/            # Interface gráfica (Swing, JavaFX ou console)
+    ├─ README.md        # Este arquivo
+    └─ pom.xml / build/ # Scripts de build (se aplicáveis)
+```
 ---
 
 ## 🚀 Como executar
