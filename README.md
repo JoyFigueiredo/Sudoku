@@ -5,14 +5,29 @@
 Desenvolvido como projeto acadêmico na disciplina de Álgebra Linear.
 </p>
 
+
+> **Stack principal:** Java (JDK 11+)  
+> **Padrão:** MVC (Model–View–Controller)  
+> **Plataforma alvo:** Windows/Linux/macOS (execução via JDK)
+
 ---
 
-## 🎯 Visão geral
+## 🎮 Como jogar
 
-- **Padrão:** MVC (separação clara entre Model, View e Controller).
-- **Linguagem:** Java.
-- **Uso:** Interface gráfica para resolver tabuleiros 9×9.
-- Possível extensão para geração, verificação e solução automática via backtracking.
+- Preencha os números de **1 a 9** em cada célula do tabuleiro 9×9.
+- Cada linha, coluna e subgrade 3×3 deve conter todos os números **sem repetição**.
+- Utilize botões ou comandos para **Reset**, **Check** ou **Solve** (se implementados).
+
+---
+
+## ✨ Funcionalidades
+
+- Interface gráfica (Swing ou JavaFX).
+- Validação automática de jogadas.
+- Estrutura modular (MVC) para fácil manutenção.
+- Possibilidade de extensão para:
+  - Geração de tabuleiros aleatórios.
+  - Solver automático via backtracking.
 
 ---
 
@@ -27,21 +42,15 @@ Sudoku/
 ```
 ---
 
-## 🚀 Como executar
+## ▶️ Executar
 
-### 📦 Pré-requisitos
-
-- Java JDK 11+ instalado.
-- (Opcional) IDE de sua preferência: IntelliJ IDEA, Eclipse ou VS Code com suporte Java.
-
-### Execução via linha de comando
-
+### Opção 1 — Linha de comando
 ```bash
 cd Sudoku
 javac Controller/*.java Model/*.java View/*.java
 java Controller.Main
 ```
-### Execução via IDE
+### Opção 2 - Execução via IDE
 
 - Importe o projeto como **Java Project**.
 - Localize a classe principal (`Main` ou outra que inicialize o jogo).
@@ -49,7 +58,7 @@ java Controller.Main
 
 ---
 
-## ⌨️ Controles (exemplo genérico)
+## ⌨️ Controles
 
 - Interface gráfica/Swing:
   - Clique em células vazias e digite o número.
@@ -62,20 +71,12 @@ java Controller.Main
 
 ---
 
-## 🧠 Lógica de funcionamento (nível alto)
+## 🧩 Lógica de funcionamento (nível alto)
 
 1. **Model**: mantém o estado do tabuleiro (9×9), checagens de linha, coluna e subgrade.
 2. **Controller**: processa entradas do usuário e coordena Model + View.
 3. **View**: renderiza o tabuleiro e atualiza conforme interações.
 4. **Possível Solver**: algoritmo backtracking que resolve o tabuleiro automaticamente.
-
----
-
-## 📸 Capturas de tela / GIF
-
-docs/screenshot-inicio.png
-docs/screenshot-complete.png
-docs/demo-sudoku.gif
 
 ---
 
