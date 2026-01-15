@@ -4,6 +4,10 @@
     Implementação do clássico jogo <strong>Sudoku </strong> em <strong>Java</strong>, adotando o padrão arquitetural <strong>MVC</strong> (Model–View–Controller).  
 Desenvolvido como projeto acadêmico na disciplina de Álgebra Linear.
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/versão-1.0.0-blue" alt="Versão">
+</p>
 
 
 > **Stack principal:** Java (JDK 11+)  
