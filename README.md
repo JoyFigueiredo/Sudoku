@@ -4,6 +4,13 @@
 Implementação do clássico jogo **Sudoku** em **Java**, adotando o padrão arquitetural **MVC** (Model–View–Controller).  
 Desenvolvido como projeto acadêmico na disciplina de Álgebra Linear.
 
+<h1 align="center">Sudoku (Java)</h1>
+
+<p align="center">
+    Implementação do clássico jogo <strong>Sudoku </strong> em <strong>Java</strong>, adotando o padrão arquitetural <strong>MVC</strong> (Model–View–Controller).  
+Desenvolvido como projeto acadêmico na disciplina de Álgebra Linear.
+</p>
+
 ---
 
 ## 🎯 Visão geral
